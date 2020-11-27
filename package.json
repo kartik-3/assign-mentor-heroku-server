@@ -1,14 +1,21 @@
 {
-  "name": "assign-mentor",
+  "name": "assign-mentor-heroku-server",
   "version": "1.0.0",
-  "description": "Mentor and Student Assigning",
+  "description": "Mentor and Student Assigning Server",
   "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.3"
+  },
+  "devDependencies": {},
   "scripts": {
-    "start": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kartik-3/assign-mentor.git"
+    "url": "git+https://github.com/kartik-3/assign-mentor-heroku-server.git"
   },
   "keywords": [
     "nodejs",
@@ -20,13 +27,7 @@
   "author": "Kartik Sehgal",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kartik-3/assign-mentor/issues"
+    "url": "https://github.com/kartik-3/assign-mentor-heroku-server/issues"
   },
-  "homepage": "https://github.com/kartik-3/assign-mentor#readme",
-  "dependencies": {
-    "body-parser": "^1.19.0",
-    "cors": "^2.8.5",
-    "express": "^4.17.1",
-    "mongodb": "^3.6.3"
-  }
+  "homepage": "https://github.com/kartik-3/assign-mentor-heroku-server#readme"
 }
