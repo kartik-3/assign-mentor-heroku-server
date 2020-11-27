@@ -1,0 +1,30 @@
+{
+  "name": "assign-mentor",
+  "version": "1.0.0",
+  "description": "Mentor and Student Assigning",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kartik-3/assign-mentor.git"
+  },
+  "keywords": [
+    "nodejs",
+    "html",
+    "javascript",
+    "css",
+    "bootstrap"
+  ],
+  "author": "Kartik Sehgal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kartik-3/assign-mentor/issues"
+  },
+  "homepage": "https://github.com/kartik-3/assign-mentor#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "mongodb": "^3.3.3"
+  }
+}
